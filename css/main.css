@@ -1,0 +1,81 @@
+html {
+    font-family: Roboto, sans-serif;
+    background-color: bisque;
+  }
+html, body{
+  margin: 10px;
+  padding: 0;
+}
+  
+  * {
+    color: #333333;
+  }
+  
+  h1 {
+    color: rgb(108, 34, 255);
+    margin-bottom: 0.25em;
+  }
+  
+  h2 {
+    color: #333333;
+    font-size: lem;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  h3 {
+    color: rgb(108, 34, 255);
+  }
+  
+  a {
+    color: rgb(108, 34, 255);
+  }
+  
+  section {
+    margin-bottom: 3em;
+  }
+  
+  .cv {
+    max-width: 1190px;
+    margin: 0 auto;
+  }
+  
+  .contacts {
+    margin-bottom: 2em;
+  }
+  
+  .contact {
+    display: flex;
+  }
+  .contact__type {
+    min-width: 90px;
+  }
+  
+  .experience {
+    display: inline-block;
+    margin-bottom: 2em;
+
+  }
+  .experience__date {
+    min-width: 185px;
+    margin-bottom: 1em;
+  }
+  .experience__name {
+    font-weight: bold;
+  }
+  .contact__value a{
+      text-decoration: none;
+  }
+  .galery{
+      width: 100%;
+      text-align: left;
+  }
+  .galery img{
+      width: 20%;
+      display: inline-block;
+  }
+  @media (max-widt: 575px) {
+    .experience {
+      display: block;
+    }
+  }/*# sourceMappingURL=main.css.map */
